@@ -12,4 +12,9 @@
 #endif /* LOGICA_H_ */
 
 
-int logica(int vA, int vB);
+int logicaSuma(int vA, int vB);
+int logicaResta(int vA, int vB);
+float logicaDivision(int vA, int vB);
+int logicaMultiplicacion(int vA, int vB);
+int logicaFactorialA(int vA, int vB);
+int logicaFactorialB(int vA, int vB);
