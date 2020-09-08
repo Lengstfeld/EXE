@@ -26,7 +26,6 @@ int logicaMultiplicacion(int vA, int vB)
 {
 	int multiplicacion=0;
 	multiplicacion=vA*vB;
-
 	return multiplicacion;
 }
 int logicaFactorialA(int vA, int vB)
