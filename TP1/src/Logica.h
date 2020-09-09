@@ -39,4 +39,4 @@ int logicaMultiplicacion(int vA, int vB);
  *\param A y B que seran reemplazado por los que le pasaremos.
  *\return El resultado.
  */
-int logicaFactorial(int vAoB);
+double logicaFactorial(double vAoB);

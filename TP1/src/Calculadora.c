@@ -20,8 +20,8 @@ int main(void){
 	int resultadoResta=0;
 	float resultadoDivision=0;
 	int resultadoMultiplicacion=0;
-	int resultadoFactorialA=0;
-	int resultadoFactorialB=0;
+	double resultadoFactorialA=0;
+	double resultadoFactorialB=0;
 	char salir='n';
 	int menu;
 
@@ -68,7 +68,7 @@ int main(void){
 			printf("\nEl resultado de la multiplicacion es: %d", resultadoMultiplicacion);
 			if(A>=0)
 			{
-				printf("\nEl resultado del factorial de A es: %d", resultadoFactorialA);
+				printf("\nEl resultado del factorial de A es: %lf", resultadoFactorialA);
 			}
 			else
 			{
@@ -76,7 +76,7 @@ int main(void){
 			}
 			if(B>=0)
 			{
-				printf("\nEl resultado del factorial de B es: %d\n\n", resultadoFactorialB);
+				printf("\nEl resultado del factorial de B es: %lf\n\n", resultadoFactorialB);
 			}
 			else
 			{

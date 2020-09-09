@@ -28,9 +28,9 @@ int logicaMultiplicacion(int vA, int vB)
 	multiplicacion=vA*vB;
 	return multiplicacion;
 }
-int logicaFactorial(int vAoB)
+double logicaFactorial(double vAoB)
 {
-	int factorial=1;
+	double factorial=1;
 	for(int i=1;i<=vAoB;i++)
 	{
 		factorial*=i;
