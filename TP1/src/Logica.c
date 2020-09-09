@@ -28,21 +28,13 @@ int logicaMultiplicacion(int vA, int vB)
 	multiplicacion=vA*vB;
 	return multiplicacion;
 }
-int logicaFactorialA(int vA, int vB)
+int logicaFactorial(int vAoB)
 {
-	int factorialA=1;
-	for(int i=1;i<=vA;i++)
+	int factorial=1;
+	for(int i=1;i<=vAoB;i++)
 	{
-		factorialA*=i;
+		factorial*=i;
 	}
-	return factorialA;
+	return factorial;
 }
-int logicaFactorialB(int vA, int vB)
-{
-	int factorialB=1;
-	for(int i=1;i<=vB;i++)
-	{
-		factorialB*=i;
-	}
-	return factorialB;
-}
+

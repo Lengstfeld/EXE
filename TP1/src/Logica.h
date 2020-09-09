@@ -39,10 +39,4 @@ int logicaMultiplicacion(int vA, int vB);
  *\param A y B que seran reemplazado por los que le pasaremos.
  *\return El resultado.
  */
-int logicaFactorialA(int vA, int vB);
-/**
- *\brief Realiza el factorial del 2do valor ingresado.
- *\param A y B que seran reemplazado por los que le pasaremos.
- *\return El resultado.
- */
-int logicaFactorialB(int vA, int vB);
+int logicaFactorial(int vAoB);
